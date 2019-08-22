@@ -1,0 +1,10 @@
+[template]
+src = "nginx.tmpl"
+dest = "/usr/local/nginx/conf/conf.d/confd-nginx.conf"
+owner = "nginx"
+mode = "0644"
+keys = [
+  "/services",
+]
+check_cmd = "/usr/local/nginx/sbin/nginx -t"
+reload_cmd = "/usr/local/nginx/sbin/nginx -s reload"
