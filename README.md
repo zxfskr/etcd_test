@@ -144,7 +144,7 @@ cd ~/workspace
 2. 克隆项目
 
 ```
-git clone git@gitlab.using.site:zhangxf/etcd_test.git
+git clone git@github.com/zxxxf/etcd_test.git
 ```
 
 3. 进入虚拟环境，根据不同的模块，安装相应的依赖包
